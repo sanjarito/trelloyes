@@ -13,6 +13,7 @@ describe('List component testing', () => {
     ReactDOM.render(<List><Card/></List>, div);
     ReactDOM.unmountComponentAtNode(div);
   });
+  });
 
   // it('renders the Card UI as expected', () => {
   //   const tree = renderer
@@ -24,5 +25,3 @@ describe('List component testing', () => {
   //     .toJSON();
   //   expect(tree).toMatchSnapshot();
   //   });
-
-});
